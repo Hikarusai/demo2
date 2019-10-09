@@ -1,0 +1,22 @@
+// khởi tạo 
+git init
+git status
+git add .
+git commit -m '(comment)'
+//kiểm tra các commit
+git log
+or git show +(id các commit) để xem chi tiết 1 commit
+//push lên github
+git remote add orgin +(link đến thư mục github)
+git push orgin master
+//kiểm tra vị trí trên nhánh nào
+git branch
+//tạo nhánh mới 
+git -b +(tên nhánh)
+//chuyển sang nhánh bất kì
+git checkout +(tên nhánh)
+//nhập nhánh b vào nhánh a
+git checkout a
+git merge b
+//đồng bộ dữ liệu local và github
+git pull

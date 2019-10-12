@@ -1,0 +1,34 @@
+.default-link{
+	color: #185990;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+/*trạng thái link chưa dc click*/
+.default-link:link{
+	text-decoration: none;
+}
+/*trạng thái link sau khi click*/
+.default-link:visited{
+	
+}
+/*trạng thái link khi trỏ chuột vào*/
+.default-link:hover{
+ text-decoration: underline;
+}
+/*trạng thái link khi click chuột vào nhưng chưa thả chuột*/
+.default-link:active{
+ color: red;
+}
+
+.button-link{
+	background: #327ab7;
+    font-family: sans-serif;
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button-link:hover{
+	background-color: #0b2f79
+}

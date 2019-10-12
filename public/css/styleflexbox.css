@@ -1,0 +1,23 @@
+.container{
+	display: flex;
+	background: #ddd;
+	height: 300px;
+	flex-direction: row;
+	justify-content:flex-start; 
+    align-items: flex-start;
+}
+.child1{
+	background: red;
+	flex-basis: 150px;
+}
+.child2{
+	background: green;
+	flex-basis: 150px;
+	flex-grow: 1;/*chia hết phần thừa cho child2*/
+	flex-shrink: 0;/* ko bị cắt độ dài khi độ dài vượt quá khổ,mặc định là 1*/
+	order: 1 /*sắp xếp lại thứ tự,mặc định 0,0 xếp trc 1 xếp sau*/
+}
+.child3{
+	background: blue;
+	flex-basis: 150px;
+}

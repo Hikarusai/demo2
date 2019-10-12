@@ -1,0 +1,135 @@
+.body{
+	background-color: whitesmoke;
+}
+.header{
+	height: 100px;
+}
+.container{
+   
+    padding: 10px;
+    
+
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.footer{
+   height: 200px;
+   text-align: center;
+}
+.sidebar{
+	float: left;
+	width: 20%;
+}
+.main{
+	float: left;
+	margin-left: 20px;
+}
+.menu{
+	font-family: Arial,sans-serif;
+	list-style: none;
+	display: flex;
+	padding:0px;
+}
+.menu li a{
+	
+	padding: 10px 16px;
+	text-decoration: none;
+	color: black;
+
+}
+	
+.menu li a:hover{
+	background-color: #eee;
+	color: #8838d2;
+	border-bottom: 2px solid #3237d0;
+}
+.menu li a:hover .submenu{
+ display: block;
+}
+.has-submenu{
+	position: relative;
+
+}
+.submenu{
+	width: 150px;
+	list-style: none;
+	border: 1px solid;
+	position: absolute;
+	padding: 0px;
+	left:0px;
+	top:100%;
+	padding-top: 10px;
+	display: none;
+}
+.submenu li{
+	margin-bottom: 15px;
+	color: #000;
+	padding: 8px 15px;
+
+}
+.submenu li:hover{
+	background-color: #eee;
+	color: #8838d2;
+	
+}
+.zingchart{
+
+	width:400px;
+	height: 80px;
+	background-color: #3c1c5a;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: Arial,sans-serif;
+	color: white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	
+}
+.zingchart:hover {
+	background-color: rgba(60,28,90,0.7);
+}
+.zingchart:hover .play{
+	opacity: 1;
+}
+.image{
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/louhoang.jpg);
+	background-size: cover; 
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	}
+.song{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-grow: 1;
+}
+.songname{
+	font-weight: bold;
+	padding-left: 10px;
+	margin-bottom: 5px;
+
+}
+.author{
+	padding-left: 10px;
+	color: #999;
+}	
+.number{
+	font-size: 20px;
+    padding: 0 20px;
+}
+.show{
+	padding-right: 10px;
+}
+.play{
+	opacity: 0;
+
+}

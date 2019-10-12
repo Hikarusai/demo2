@@ -1,0 +1,28 @@
+	
+.items{
+	display: flex;
+
+
+}
+.item {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/louhoang.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.item .overplay {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 80px;
+	transform: scale(0.7);
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.item:hover .overplay{
+	background-color: rgba(0,0,0,0.3);
+	transform: scale(1);
+	opacity: 1;
+}

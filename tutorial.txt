@@ -2,6 +2,11 @@
 git init
 git status
 git add .
+// xoá file add nhầm 
+git rm -r -cached <file>
+//hoàn tác lệnh git add.
+git reset <file>
+
 git commit -m '(comment)'
 //kiểm tra các commit
 git log

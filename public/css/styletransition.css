@@ -1,12 +1,9 @@
 	
-.items{
-	display: flex;
 
-
-}
-.item {
+.item{
 	width: 200px;
 	height: 200px;
+	margin: 10px;
 	background-image: url(../images/louhoang.jpg);
 	background-size: cover;
 	background-position: center;
